@@ -3,10 +3,10 @@
     {
       "identity" : "paypalcheckout-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/paypal/paypalcheckout-ios.git",
+      "location" : "https://github.com/paypal/paypalcheckout-ios",
       "state" : {
-        "revision" : "229f0b8b88970b04d13becd4a8c64e95f5969cab",
-        "version" : "0.110.0"
+        "revision" : "0d50b2c2a16437de057ce4f6f3612561a3d9a263",
+        "version" : "0.109.0"
       }
     }
   ],

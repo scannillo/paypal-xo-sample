@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         Networking.sharedInstance.createOrderID { result in
             switch result {
             case .success(let orderID):
+                print("✅ Fetched orderID.")
                 self.orderID = orderID
                 
                 self.addPayPalButtons()
