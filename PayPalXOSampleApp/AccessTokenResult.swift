@@ -1,10 +1,3 @@
-//
-//  AccessTokenResult.swift
-//  PayPalXOSampleApp
-//
-//  Created by Samantha Cannillo on 4/5/23.
-//
-
 public struct AccessTokenResult: Codable {
     
     enum CodingKeys: String, CodingKey {
