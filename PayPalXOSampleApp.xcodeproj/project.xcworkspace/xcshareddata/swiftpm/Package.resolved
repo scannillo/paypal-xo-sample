@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/paypal/iOS-SDK.git",
       "state" : {
-        "revision" : "251a65fd78145ce995061bd856bed8d58d3629ff",
-        "version" : "0.0.7"
+        "branch" : "main",
+        "revision" : "d0ae03615f9fd94e375afd063393062f2679088d"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/paypal/paypalcheckout-ios",
       "state" : {
-        "revision" : "0d50b2c2a16437de057ce4f6f3612561a3d9a263",
-        "version" : "0.109.0"
+        "revision" : "ba604d077222feb4981c4051f719db64849a9fa1",
+        "version" : "0.112.1"
       }
     }
   ],

@@ -94,11 +94,11 @@ extension ViewController: PayPalNativeCheckoutDelegate {
 
 extension ViewController: PayPalNativeShippingDelegate {
     
-    func paypal(_ payPalClient: PayPalNativePayments.PayPalNativeCheckoutClient, didShippingAddressChange shippingAddress: PayPalNativePayments.PayPalNativeShippingAddress) {
+    func paypal(_ payPalClient: PayPalNativePayments.PayPalNativeCheckoutClient, didShippingAddressChange shippingAddress: PayPalNativePayments.PayPalNativeShippingAddress, withAction shippingActions: PayPalNativePayments.PayPalNativePaysheetActions) {
         // Handle user shipping address selection change
     }
     
-    func paypal(_ payPalClient: PayPalNativePayments.PayPalNativeCheckoutClient, didShippingMethodChange: PayPalNativePayments.PayPalNativeShippingMethod) {
+    func paypal(_ payPalClient: PayPalNativePayments.PayPalNativeCheckoutClient, didShippingMethodChange shippingMethod: PayPalNativePayments.PayPalNativeShippingMethod, withAction shippingActions: PayPalNativePayments.PayPalNativePaysheetActions) {
         // Handle user shipping method selection change
     }
 }
