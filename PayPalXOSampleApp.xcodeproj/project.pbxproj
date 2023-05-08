@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800E29052A09216B00D86611 /* AccessTokenResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800E29042A09216B00D86611 /* AccessTokenResult.swift */; };
 		808099BC29DDA81100D3B551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808099BB29DDA81100D3B551 /* AppDelegate.swift */; };
 		808099BE29DDA81100D3B551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808099BD29DDA81100D3B551 /* SceneDelegate.swift */; };
 		808099C029DDA81100D3B551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808099BF29DDA81100D3B551 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		800E29042A09216B00D86611 /* AccessTokenResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenResult.swift; sourceTree = "<group>"; };
 		808099B829DDA81100D3B551 /* PayPalXOSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPalXOSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		808099BB29DDA81100D3B551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		808099BD29DDA81100D3B551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				808099D429DDAB6500D3B551 /* OrderRequest.swift */,
 				808099D629DDB05700D3B551 /* OrderResult.swift */,
 				808099D829DDB19600D3B551 /* CheckoutError.swift */,
+				800E29042A09216B00D86611 /* AccessTokenResult.swift */,
 			);
 			path = PayPalXOSampleApp;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				808099BC29DDA81100D3B551 /* AppDelegate.swift in Sources */,
 				808099BE29DDA81100D3B551 /* SceneDelegate.swift in Sources */,
 				808099D729DDB05700D3B551 /* OrderResult.swift in Sources */,
+				800E29052A09216B00D86611 /* AccessTokenResult.swift in Sources */,
 				808099D529DDAB6500D3B551 /* OrderRequest.swift in Sources */,
 				808099D329DDA92400D3B551 /* Networking.swift in Sources */,
 				808099E529DDC1C000D3B551 /* AccessTokenResult.swift in Sources */,
