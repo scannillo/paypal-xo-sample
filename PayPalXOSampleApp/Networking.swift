@@ -24,6 +24,7 @@ class Networking {
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "POST"
         urlRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        
         URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
             if error != nil {
                 completion(.failure(CheckoutError.networkError))
@@ -33,6 +34,7 @@ class Networking {
                 completion(.failure(CheckoutError.missingData))
                 return
             }
+            
             do {
                 let accessTokenResult = try JSONDecoder().decode(AccessTokenResult.self, from: data)
                 completion(.success(accessTokenResult.accessToken))

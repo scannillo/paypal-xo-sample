@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/paypal/iOS-SDK.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "d0ae03615f9fd94e375afd063393062f2679088d"
+        "revision" : "7fe4d30e36e4a6e7a583488f25522e188194db62",
+        "version" : "0.0.8"
       }
     },
     {
